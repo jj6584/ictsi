@@ -8,42 +8,7 @@ class Admin extends CI_Controller {
                 $this -> login();
             }
 
-            // public function ds(){
-            //
-            //
-            //     $var = $_POST['evals'];
-            //     $counter = 0;
-            //     $counter1 = 0;
-            //     $finaldata = 0;
-            //     $data = "";
-            //
-            //       foreach ($var as $newvar) {
-            //         $data.= $newvar .",";
-            //
-            //         $counter++;
-            //
-            //       }
-            //
-            //       $length = mb_strlen($data)-1;
-            //       $new =  mb_substr($data,0,$length);
-            //
-            //       echo $new . "<br>";
-            //       echo $counter;
-            //
-            //       echo "<br>";
-            //       $dump = explode(",", $new);
-            //
-            //         foreach ($dump as $key) {
-            //           $finaldata += $key;
-            //           $counter1++;
-            //         }
-            //         echo "<br>";
-            //         echo $finaldata / $counter1;
-            //         echo "<br>";
-            //         echo $counter1;
-            //
-            //
-            // }
+          
 
               public function approvereq(){
                                     $this -> load ->model('model_admin');

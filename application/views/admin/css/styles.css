@@ -1,0 +1,731 @@
+
+.tint {
+  position: relative;
+  cursor: pointer;
+
+}
+
+.tint:before {
+
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+
+}
+
+.header-box{
+  width: 100%;
+  height: 100px;
+  border: solid black 3px;
+  background-color: black;
+
+}
+
+
+.userlogin-box{
+
+position: absolute;
+left: 780px;
+top: 30px;
+
+font-size: 20px;
+
+}
+
+.passlogin-box{
+position: absolute;
+left: 990px;
+top: 30px;
+
+font-size: 20px;
+
+}
+
+.buttonlogin-box{
+position: absolute;
+left: 1200px;
+top: 30px;
+
+font-size: 20px;
+
+}
+
+.check-box{
+position: absolute;
+color: white;
+left: 780px;
+top: 70px;
+
+}
+
+.applybutton-box{
+position: absolute;
+left: 700px;
+top: 390px;
+
+font-size: 20px;
+
+}
+
+.banner-text{
+  position: absolute;
+  color: white;
+  left: 150px;
+  top: 150px;
+  font-size: 60px;
+}
+.banner-text2{
+  position: absolute;
+  color: white;
+  left: 230px;
+  top: 230px;
+  font-size: 25px;
+}
+
+
+.reg-box{
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.reg-steps{
+  width: 20%;
+  margin-left: 140px;
+  float: left;
+  text-align: center;
+
+}
+
+.reg-steps1{
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  text-align: center;
+
+}
+
+.reg-steps1A{
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  text-align: center;
+
+}
+
+
+.reg-steps2{
+  width: 20%;
+  margin-left: 140px;
+  float: left;
+  text-align: center;
+
+}
+
+.reg-steps2A{
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  text-align: center;
+
+}
+
+.reg-steps2B{
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  text-align: center;
+
+}
+
+.reg-steps3{
+  width: 20%;
+  margin-left: 130px;
+  float: left;
+  text-align: center;
+
+}
+
+.reg-steps3A{
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  text-align: center;
+}
+
+.reg-steps3B{
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  text-align: center;
+}
+
+
+.reg-fname{
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 140px;
+  float: left;
+}
+
+.reg-mname{
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 13px;
+  float: left;
+}
+.reg-lname{
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 13px;
+  float: left;
+}
+
+
+.reg-sex{
+  margin-left: 140px;
+}
+
+.reg-citizenship{
+  width: 18%;
+  margin-top: 10px;
+  margin-left: 140px;
+  float: left;
+}
+
+.reg-religion{
+  width: 15.5%;
+  margin-top: 10px;
+  margin-left: 15px;
+  float: left;
+}
+.reg-height{
+  width: 12%;
+  margin-top: 10px;
+  margin-left: 15px;
+  float: left;
+}
+
+.reg-weight{
+  width: 12%;
+  margin-top: 10px;
+  margin-left: 15px;
+  float: left;
+}
+
+
+.reg-city{
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 140px;
+  float: left;
+}
+
+.reg-state{
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 26px;
+  float: left;
+}
+
+.reg-contact{
+  width: 63.5%;
+  margin-top: 18%;
+  margin-left: 140px;
+
+}
+
+.reg-email{
+  width: 63.5%;
+  margin-top: 10px;
+  margin-left: 140px;
+
+}
+
+.reg-pass{
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 140px;
+  float: left;
+
+}
+
+.reg-cpass{
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 26px;
+  float: left;
+
+}
+
+.reg-month{
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 140px;
+  float: left;
+}
+
+.reg-day{
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 13px;
+  float: left;
+}
+.reg-year{
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 13px;
+  float: left;
+}
+
+.reg-sss{
+  width: 31%;
+  margin-top: 10px;
+  margin-left: 140px;
+  float: left;
+
+}
+
+.reg-tin{
+  width: 31%;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-style: inset;
+    border-width: 1.5px;
+}
+
+.reg-attainment{
+  width: 60%;
+  margin-top: 15px;
+  margin-left: 140px;
+}
+
+.reg-elem{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-elem-deg{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+  float: left;
+}
+.reg-elem-indates{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 14px;
+  float: left;
+}
+
+.reg-hs{
+  width: 60%;
+  margin-top: 8%;
+  margin-left: 140px;
+}
+
+.reg-hs-deg{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+  float: left;
+}
+.reg-hs-indates{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 14px;
+  float: left;
+}
+
+.reg-college{
+  width: 60%;
+  margin-top: 8%;
+  margin-left: 140px;
+}
+
+.reg-college-deg{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-college-program{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-college-program{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-college-indates{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-tech{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-tech-deg{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-tech-program{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-tech-indates{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-gs{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-gs-deg{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-gs-program{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-gs-indates{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-post{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-post-deg{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-post-program{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-post-indates{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-license{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-license-datestaken{
+   width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+  float: left;
+}
+
+
+.reg-license-rating{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 14px;
+  float: left;
+}
+
+.resume-box{
+  width: 85%;
+  margin: auto;
+
+}
+
+.dropdown1{
+  width: 29%;
+  margin-left: 140px;
+  text-align: center;
+  float: left;
+}
+
+.dropdown2{
+  width: 29%;
+  margin-left: 13px;
+  text-align: center;
+  float:left;
+}
+
+.skills-box{
+  width: 60%;
+  margin-left: 140px;
+}
+
+.expi{
+  width: 29%;
+  margin-left: 140px;
+  float: left;
+}
+
+.expi-as{
+  width: 29%;
+  margin-left: 13px;
+  float: left;
+}
+
+.others-box{
+  width: 36.5%;
+}
+
+
+.radio-boxes{
+  margin-left: 140px;
+}
+
+.radio-box{
+  width: 310px;
+}
+
+.applicant-box{
+  width: 50%;
+  margin-left: 10%;
+}
+
+.applicant2-box{
+  width: 50%;
+  margin-left: 10%;
+}
+
+.applicant3-box{
+  width: 50%;
+  margin-left: 10%;
+  margin-top: -1.6%;
+  float: left;
+}
+
+.applicant4-box{
+  width: 27%;
+  margin-left: 2%;
+  margin-top: -19.3%;
+  float:left;
+}
+
+.site-media{
+  margin-top: 4%;
+}
+
+
+
+.text-box{
+        width:10em;
+        font-size:2em;
+        padding:0;
+       white-space: nowrap;
+        word-wrap: break-word;
+
+}
+
+#wrap {
+    /* Your styling. */
+    position: absolute;
+    z-index: 999999;
+    left: 0;
+    height: 60%;
+    text-align: center;
+
+
+    /* Solution part I. */
+    display: table;
+}
+
+/* Solution part II. */
+#inside {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.sample{
+  margin-left: 20px;
+  margin-top: 2%;
+}
+
+.description{
+  margin-top: -15px;
+}
+
+.description2{
+  margin-top: -10px;
+}
+
+
+.stacked-navi{
+  width: 21%
+}
+
+.table-size{
+  width: 50s%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.for-margin{
+  margin: auto;
+}
+
+.banner-upload{
+  width: 45%;
+  margin: auto;
+}
+
+.add-FAQ-box{
+  width: 60%;
+  margin: auto;
+}
+
+/*CSS for Calendar*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+*{margin:0;padding:0;}
+
+body{
+  background:#445566;
+}
+
+#calendar > h1{
+  width:358px;
+  margin:0 auto;
+  margin-top:2%;
+  margin-bottom:2%;
+  border-radius:5px;
+  font-family:'Open Sans',sans-serif;
+  text-align:center;
+  color:#555;
+  box-shadow:0 0 50px -14px rgba(0,0,0,.8);
+}
+
+#calendar h1{
+  background:#ee3333;
+  border-radius:5px 5px 0 0;
+  padding:20px;
+  font-size:140%;
+  font-weight:300;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  color:#fff;
+  cursor:default;
+  text-shadow:0 0 10px rgba(0,0,0,.8);
+}
+
+#calendar table{
+  border-top:1px solid #ddd;
+  border-left:1px solid #ddd;
+  border-spacing:0;
+  border-radius:0 0 5px 5px;
+}
+
+#calendar td{
+  width:38px;
+  height:38px;
+  background:#eee;
+  border-right:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+  padding:6px;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+#calendar td:hover:not(.current){
+  background:#ddd;
+}
+
+#calendar .lastmonth,#calendar .nextmonth,#calendar .nextmonth ~ *{
+  background:#fff;
+  color:#999;
+}
+
+#calendar .current{
+  background:#ee3333;
+  font-weight:700;
+  color:#fff;
+  text-shadow:0 0 10px rgba(0,0,0,.5);
+}
+
+#calendar .hastask{
+  font-weight:700;
+}
+
+#calendar tr:last-of-type td:first-of-type{border-radius:0 0 0 5px;}
+#calendar tr:last-of-type td:last-of-type{border-radius:0 0 5px 0;}
+
+
+.hrDash-collab{
+  width: 70%;
+  margin: auto;
+}
+
+.hrDash-arApp{
+  width: 70%;
+  margin: auto;
+}
+
+.hrDash-arOpen{
+  width: 70%;
+  margin: auto;
+}
+
+.hrDash-manSkills{
+  width: 70%;
+  margin: auto;
+}
+
+.hrDash-peProgress{
+  width: 70%;
+  margin: auto;
+}

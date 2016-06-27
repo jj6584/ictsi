@@ -1,0 +1,1901 @@
+@import url(http://db.onlinewebfonts.com/c/9f895be44fd462d400a25832ec1095a1?family=Nyala);
+
+@font-face {
+	
+	font-family: "Nyala";
+    src: url("http://db.onlinewebfonts.com/t/9f895be44fd462d400a25832ec1095a1.eot");
+    src: url("http://db.onlinewebfonts.com/t/9f895be44fd462d400a25832ec1095a1.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/9f895be44fd462d400a25832ec1095a1.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/9f895be44fd462d400a25832ec1095a1.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/9f895be44fd462d400a25832ec1095a1.svg#Nyala") format("svg");
+}
+
+@font-face {
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: normal;
+src: local('Bebas Neue'), url('../fonts/BebasNeue.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Nexa Light Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Nexa Light Regular'), url('../fonts/nexa-light-webfont.woff') format('woff');
+}
+
+
+
+.tint {
+  position: relative;
+
+}
+
+.tint:before {
+
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+
+}
+
+
+.banner-text{
+
+  position: absolute;
+  width: 100%;
+  padding: 50px 15px;
+  text-align: center;
+  color: white;
+}
+
+.banner-text h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+
+.banner-text p{
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+.table-search{
+  width: 50%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+
+
+
+.apply-button{
+  background-color: transparent;
+  height: 30px;
+  width: 70px;
+  font-family: bebas;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  border: 2px solid #428bca;
+  text-transform: uppercase;
+  cursor:pointer;
+  color:#428bca;
+  font-size:17px;
+  vertical-align: center;
+}
+
+.apply-button:hover{
+  background-color: transparent;
+  border: 2px solid #000;
+  color: #000000;
+}
+
+.share-button{
+  background-color: transparent;
+  height: 30px;
+  width: 200px;
+  font-family: bebas;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  border: 2px solid #428bca;
+  text-transform: uppercase;
+  cursor:pointer;
+  color:#428bca;
+  font-size:17px;
+  vertical-align: center;
+}
+
+.share-button:hover{
+  background-color: transparent;
+  border: 2px solid #000;
+  color: #000000;
+}
+
+
+
+.landing-text{
+
+  color: white;
+  font-size: 20px;
+  top: 430px;
+  position: absolute;
+}
+
+.landing-button{
+  background-color: transparent;
+  height: 70px;
+  width: 190px;
+  font-family: bebas;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  cursor:pointer;
+  color:#FFFFFF;
+  font-size: 25px;
+  vertical-align: center;
+  font-family: Bebas Neue;
+
+}
+
+.landing-button:hover{
+
+  background-color: white;
+  transition: background-color .2s linear;
+  color: #000000;
+}
+
+
+
+.check-box{
+position: absolute;
+color: white;
+left: 780px;
+top: 70px;
+
+}
+
+
+.applybutton-box{
+position: absolute;
+left: 46%;
+top: 390px;
+
+font-size: 20px;
+
+}
+
+.banner-text3{
+  position: absolute;
+  color: white;
+  left: 150px;
+  top: 150px;
+  font-size: 50px;
+}
+.banner-text2{
+  position: absolute;
+  color: white;
+  left: 230px;
+  top: 230px;
+  font-size: 20px;
+}
+
+
+.reg-box{
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.reg-steps{
+  width: 20%;
+  margin-left: 140px;
+  float: left;
+  text-align: center;
+
+}
+
+.reg-steps1{
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  text-align: center;
+
+}
+
+.reg-steps1A{
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  text-align: center;
+
+}
+
+
+.reg-steps2{
+  width: 20%;
+  margin-left: 140px;
+  float: left;
+  text-align: center;
+
+}
+
+.reg-steps2A{
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  text-align: center;
+
+}
+
+.reg-steps2B{
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  text-align: center;
+
+}
+
+.reg-steps3{
+  width: 20%;
+  margin-left: 130px;
+  float: left;
+  text-align: center;
+
+}
+
+.reg-steps3A{
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  text-align: center;
+}
+
+.reg-steps3B{
+  width: 20%;
+  margin-left: 5px;
+  float: left;
+  text-align: center;
+}
+
+
+.reg-fname{
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 140px;
+  float: left;
+}
+
+.reg-mname{
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 13px;
+  float: left;
+}
+.reg-lname{
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 13px;
+  float: left;
+}
+
+
+.reg-sex{
+  margin-left: 140px;
+}
+
+.reg-citizenship{
+  width: 18%;
+  margin-top: 10px;
+  margin-left: 140px;
+  float: left;
+}
+
+.reg-religion{
+  width: 15.5%;
+  margin-top: 10px;
+  margin-left: 15px;
+  float: left;
+}
+.reg-height{
+  width: 12%;
+  margin-top: 10px;
+  margin-left: 15px;
+  float: left;
+}
+
+.reg-weight{
+  width: 12%;
+  margin-top: 10px;
+  margin-left: 15px;
+  float: left;
+}
+
+
+.reg-city{
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 140px;
+  float: left;
+}
+
+.reg-state{
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 26px;
+  float: left;
+}
+
+.reg-contact{
+  width: 63.5%;
+  margin-top: 18%;
+  margin-left: 140px;
+
+}
+
+.reg-email{
+  width: 63.5%;
+  margin-top: 10px;
+  margin-left: 140px;
+
+}
+
+.reg-pass{
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 140px;
+  float: left;
+
+}
+
+.reg-cpass{
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 26px;
+  float: left;
+
+}
+
+.reg-month{
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 140px;
+  float: left;
+}
+
+.reg-day{
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 13px;
+  float: left;
+}
+.reg-year{
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 13px;
+  float: left;
+}
+
+.reg-sss{
+  width: 31%;
+  margin-top: 10px;
+  margin-left: 140px;
+  float: left;
+
+}
+
+.reg-tin{
+  width: 31%;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+
+}
+
+
+
+.reg-attainment{
+  width: 60%;
+  margin-top: 15px;
+  margin-left: 140px;
+}
+
+.reg-elem{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-elem-deg{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+  float: left;
+}
+.reg-elem-indates{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 14px;
+  float: left;
+}
+
+.reg-hs{
+  width: 60%;
+  margin-top: 8%;
+  margin-left: 140px;
+}
+
+.reg-hs-deg{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+  float: left;
+}
+.reg-hs-indates{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 14px;
+  float: left;
+}
+
+.reg-college{
+  width: 60%;
+  margin-top: 8%;
+  margin-left: 140px;
+}
+
+.reg-college-deg{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-college-program{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-college-program{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-college-indates{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-tech{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-tech-deg{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-tech-program{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-tech-indates{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-gs{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-gs-deg{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-gs-program{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-gs-indates{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-post{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-post-deg{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-post-program{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-post-indates{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-license{
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.reg-license-datestaken{
+   width: 29%;
+  margin-top: 10px;
+  margin-left: 140px;
+  float: left;
+}
+
+
+.reg-license-rating{
+  width: 29%;
+  margin-top: 10px;
+  margin-left: 14px;
+  float: left;
+}
+
+.resume-box{
+  width: 85%;
+  margin: auto;
+
+}
+
+.dropdown1{
+  width: 29%;
+  margin-left: 140px;
+  text-align: center;
+  float: left;
+}
+
+
+.dropdown2{
+  width: 29%;
+  margin-left: 13px;
+  text-align: center;
+  float:left;
+}
+.dropdown3{
+  width: 29%;
+  margin-left: 210px;
+  text-align: center;
+  float: left;
+}
+
+.skills-box{
+  width: 60%;
+  margin-left: 140px;
+}
+
+.expi{
+  width: 29%;
+  margin-left: 140px;
+  float: left;
+}
+
+.expi-as{
+  width: 29%;
+  margin-left: 13px;
+  float: left;
+}
+
+.others-box{
+  width: 36.5%;
+}
+
+
+.radio-boxes{
+  margin-left: 140px;
+}
+
+.radio-box{
+  width: 310px;
+}
+
+.applicant-img{
+  margin-left: 5%;
+}
+
+.applicant-name{
+  margin-left: 5%;
+  margin-top: 2%;
+  text-transform: uppercase;
+  width: 200px;
+  color:gray;
+}
+
+.applicant-info{
+  margin-left: 5%;
+  width: 200px;
+  color: gray;
+}
+
+.edit-profile{
+  margin-left: 5%;
+}
+
+.skills-info{
+  margin-left: 5%;
+  color: gray;
+  width: 200px;
+  margin-top: 2%;
+  font-size: 1.5em;
+}
+
+.applicant-skills{
+  margin-left: 5%;
+  color: gray;
+  width: 200px;
+
+}
+
+.nav1{
+  background-color: 000;
+  height: 40px;
+  width: 100%;
+  font-family: bebas;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  cursor:pointer;
+  color:#FFF;
+  font-size:17px;
+  vertical-align: center;
+  margin-top: 2%;
+}
+
+.nav1:hover {
+      background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 3px;
+/*    transition: background-color .2s linear;*/
+    color: #000000;
+    
+}
+
+
+.nav2{
+  background-color: transparent;
+  height: 40px;
+  width: 100%;
+  font-family: bebas;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  cursor:pointer;
+  color:#000;
+  font-size:17px;
+  vertical-align: center;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.nav2:hover {
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 3px;
+/*    transition: background-color .1s linear;*/
+    color: #000000;
+}
+
+.nav3{
+  background-color: transparent;
+  height: 40px;
+  width: 100%;
+  font-family: bebas;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  cursor:pointer;
+  color:#000;
+  font-size:17px;
+  vertical-align: center;
+  margin-top: 2%;
+}
+
+.nav3:hover {
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 3px;
+/*    transition: background-color .2s linear;*/
+    color: #000000;
+
+}
+
+
+.nav4{
+  background-color: #000;
+  height: 40px;
+  width: 100%;
+  font-family: bebas;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  cursor:pointer;
+  color:#FFF;
+  font-size:17px;
+  vertical-align: center;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.nav4:hover {
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 3px;
+/*    transition: background-color .1s linear;*/
+    color: #000;
+}
+
+.table-border{
+  width: 60%;
+  min-height: 50%;
+  position: absolute;
+  left: 30%;
+  top: 25%;
+  /*border: 1px solid #d9534f;*/
+}
+
+.sj{
+  width: 60%;
+  float: left;
+  margin-left: 10%;
+}
+
+.sj2{
+  float: left;
+  margin-left: 5%;
+}
+
+
+
+.applicant-box{
+  width: 50%;
+  margin-left: 10%;
+}
+
+.applicant2-box{
+  width: 50%;
+  margin-left: 10%;
+}
+
+.applicant3-box{
+  width: 50%;
+  margin-left: 10%;
+  margin-top: -1.6%;
+  float: left;
+}
+
+.applicant4-box{
+  width: 27%;
+  margin-left: 2%;
+  margin-top: -19.3%;
+  float:left;
+}
+
+.site-media{
+  margin-top: 4%;
+}
+
+
+
+.text-box{
+        width:10em;
+        font-size:2em;
+        padding:0;
+       white-space: nowrap;
+        word-wrap: break-word;
+
+}
+
+#wrap {
+    /* Your styling. */
+    position: absolute;
+    z-index: 999999;
+    left: 0;
+    height: 60%;
+    text-align: center;
+
+
+    /* Solution part I. */
+    display: table;
+}
+
+/* Solution part II. */
+#inside {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.sample{
+  margin-left: 20px;
+  margin-top: 2%;
+}
+
+.description{
+  margin-top: -15px;
+}
+
+.description2{
+  margin-top: -10px;
+}
+
+
+.stacked-navi{
+  width: 21%
+}
+
+.table-size{
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.for-margin{
+  margin: auto;
+}
+
+.banner-upload{
+  width: 45%;
+  margin: auto;
+}
+
+.add-FAQ-box{
+  width: 50%;
+  margin: auto;
+}
+
+.manage_qualifications{
+  width: 45%;
+}
+
+.search_applicant{
+  width: 30%;
+  float: left;
+  margin-left: 10%;
+}
+
+.search_button{
+  width: 45%;
+  margin-left: 1%;
+  float: left;
+}
+
+.box-ulit{
+  width: 80%;
+  margin: auto;
+}
+
+.box-table{
+  width: 80%;
+  margin: auto;
+}
+
+.work-work1{
+  width: 30%;
+  float: left;
+}
+
+.work-work2{
+  width: 50%;
+  float: left;
+}
+
+
+.ep_menu{
+  width: 20%;
+  margin-left: 10%;
+  float: left;
+  margin-top: 4%;
+}
+
+.ep_edit_skills{
+  width: 50%;
+
+  float:left;
+  margin-left: 20px;
+  margin-top: 3%;
+
+}
+
+
+.ep_edit_education{
+  width: 50%;
+
+  float:left;
+  margin-left: 20px;
+  margin-top: 3%;
+
+}
+
+.ep_edit_aboutme{
+  width: 50%;
+
+  float:left;
+  margin-left: 20px;
+  margin-top: 3%;
+
+}
+
+.ep_edit_addinfo{
+  width: 50%;
+
+  float:left;
+  margin-left: 20px;
+  margin-top: 3%;
+
+}
+
+
+
+
+
+
+
+
+.reg-fname1{
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 100px;
+  float: left;
+}
+
+.reg-mname1{
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 13px;
+  float: left;
+}
+.reg-lname1{
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 13px;
+  float: left;
+}
+
+
+.reg-sex1{
+  margin-left: 100px;
+}
+
+.reg-citizenship1{
+  width: 18%;
+  margin-top: 10px;
+  margin-left: 100px;
+  float: left;
+}
+
+.reg-religion1{
+  width: 15.5%;
+  margin-top: 10px;
+  margin-left: 15px;
+  float: left;
+}
+.reg-height1{
+  width: 12%;
+  margin-top: 10px;
+  margin-left: 15px;
+  float: left;
+}
+
+.reg-weight1{
+  width: 12%;
+  margin-top: 15px;
+  margin-left: 15px;
+  float: left;
+}
+
+
+.reg-city1{
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 100px;
+  float: left;
+}
+
+.reg-state1{
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 26px;
+  float: left;
+}
+
+.reg-contact1{
+  width: 63.5%;
+  margin-top: 18%;
+  margin-left: 100px;
+
+}
+
+.reg-email1{
+  width: 63.5%;
+  margin-top: 10px;
+  margin-left: 100px;
+
+}
+
+.reg-pass1{
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 100px;
+  float: left;
+
+}
+
+.reg-cpass1{
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 26px;
+  float: left;
+
+}
+
+.reg-month1{
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 100px;
+  float: left;
+}
+
+.reg-day1{
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 13px;
+  float: left;
+}
+.reg-year1{
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 13px;
+  float: left;
+}
+.reg-city1{
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 100px;
+  float: left;
+}
+
+
+.applicant6-box{
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+
+
+}
+.applicant7-box{
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+  /*border: 1px solid;
+  border-color: #000000 ;*/
+}
+
+
+.resume{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5%;
+  border: solid black 1px;
+}
+
+
+.name{
+  float:left;
+  width:60%;
+  margin-left: 5%;
+
+}
+
+.img-box{
+  float: left;
+width: 25%;
+  margin-left: 5%;
+}
+/*
+.resume-box{
+   width: 90%;
+  margin-left: 5%;
+  margin-top: 2%;
+  height: 60%;
+  float: left;
+  border: 1px solid;
+  border-color: #000000 ;
+}*/
+.info-box{
+  width: 50%;
+/*height: 63%;*/
+margin-left: 5%;
+  margin-right: 70%;
+  margin-top:-1%;
+border: 1px solid;
+  border-color: #000000
+
+}
+
+.faq{
+width: 50%;
+margin-left: 9%;
+float: left;
+}
+
+.faq-question{
+  width: 30%;
+  float: left;
+  margin-left: 2%;
+}
+
+
+.search-box{
+  width: 30%;
+  margin-left: 2%;
+  position: fixed;
+}
+
+
+.joblists{
+  width: 55%;
+  margin-left: 35%;
+}
+
+.joblist-title{
+  width: 40%;
+  margin: auto;
+}
+.badge-inverse{
+  background-color: red;
+}
+
+.badge-success{
+  background-color: #5cb85c;
+  margin-top: 3px;
+
+}
+.createtask{
+
+  width: 70%;
+  margin-left: 25%;
+}
+
+
+.created-task{
+  width: 60%;
+  float: left;
+  margin-left: 5%;
+}
+.task-actions{
+  width: 25%;
+  float: left;
+  margin-left: 5%;
+}
+
+
+
+
+.landing-box1{
+  width: 100%;
+  background: #E8E8E8;
+}
+
+.landing-box2{
+  margin-top: 5%;
+  margin: auto;
+  text-align:center;
+}
+
+.landing2-text{
+
+  margin-top: 30%;
+  margin: auto;
+
+  font-family: Bebas Neue;
+}
+
+.landing-box3{
+
+  background: #F8F8F8 ;
+  margin-top: 2%;
+}
+
+.landing-box4{
+  background: black;
+  text-align: center;
+ }
+
+.landing4-text{
+  
+}
+
+
+
+.carousel-size{
+  width: 50%;
+  float: left;
+}
+
+.carousel-size2{
+  width: 50%;
+  float: left;
+}
+
+
+.info1{
+width: 100%;
+}
+
+
+
+
+.emp-eval-form{
+  width: 60%;
+  margin: auto;
+}
+
+.table-legend{
+  margin-left: 17%;
+}
+
+.eval-questions{
+  width: 70%;
+  float: left;
+}
+
+.eval-questions_mobile{
+  width: 55%;
+  float: left;
+}
+
+
+.eval-rate{
+  width: 25%;
+  margin-left: 2%;
+  float: left;
+}
+
+.eval-rate_mobile{
+  width: 40%;
+  margin-left: 2%;
+  float: left;
+}
+
+
+.eval-submit{
+  width: 25%;
+}
+
+.emp-ref-form{
+  width: 60%;
+  margin: auto;
+  margin-top: 7%;
+}
+
+.request-form{
+  width: 55%;
+  margin: auto;
+}
+
+.interview-box{
+  width: 60%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.announcements-box{
+  width: 70%;
+  margin: auto;
+}
+
+#myModal{
+  top:20%;
+  margin: auto;
+  outline: none;
+}
+
+.date-gen-box{
+  width: 31%;
+  float: left;
+}
+
+.button-gen{
+  float: left;
+  margin-left: 3%;
+}
+
+.track-App-box{
+  width: 70%;
+  margin: auto;
+}
+
+.track-App-select{
+  width: 40%;
+  float: left;
+}
+
+.track-App-button{
+  float: left;
+  margin-left: 4%;
+}
+
+
+.hrDash-collab{
+  width: 70%;
+  margin: auto;
+}
+
+.hrDash-arApp{
+  width: 70%;
+  margin: auto;
+}
+
+.hrDash-arOpen{
+  width: 70%;
+  margin: auto;
+}
+
+.hrDash-manSkills{
+  width: 70%;
+  margin: auto;
+}
+
+.hrDash-peProgress{
+  width: 70%;
+  margin: auto;
+}
+
+.hrDash-empRecord{
+  width: 70%;
+  margin: auto;
+}
+
+.hrDash-appStat{
+  width: 70%;
+  margin: auto;
+}
+
+#statusModal{
+  top:30%;
+  margin: auto;
+  outline: none;
+}
+
+
+.admin-login{
+
+width: 30%;
+  margin: auto;
+  margin-top: 10%;
+
+
+}
+
+
+.emp-login{
+
+width: 30%;
+  margin: auto;
+  margin-top: 10%;
+
+}
+
+.upload-box{
+  width: 85%;
+  margin: auto;
+}
+
+.upload-content-box{
+  width: 80%;
+  margin: auto;
+}
+
+.upload1{
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.upload2{
+  width: 60%;
+  margin-top: 5%;
+  margin: auto;
+}
+
+.upload3{
+  width: 60%;
+  margin-top: 5%;
+  margin: auto;
+}
+
+.upload4{
+  width: 60%;
+  margin-top: 5%;
+  margin: auto;
+}
+
+.sub-fname{
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 140px;
+  
+}
+.sub-mname{
+  width: 50%;
+  margin-top: 5px;
+  margin-left: 140px;
+
+}
+.sub-lname{
+  width: 50%;
+  margin-top: 5px;
+  margin-left: 140px;
+}
+
+.asd{
+
+  background-color: rgba(0,0,0,0);
+  border:none;
+
+
+}
+
+.popover {
+  background-color: #d9534f; /*substitute 'red' with your color of choice*/
+  border-color: #d9534f;
+  color: white;
+}
+.popover.bottom>.arrow:after {
+  border-bottom-color: #d9534f;
+}
+.popover-content {
+  background-color: #d9534f;
+}
+
+.login-page{
+  width: 30%;
+  right: 145px;
+  color: white;
+  top: 280px;
+  position: absolute;
+}
+
+.login-text{
+  color: white;
+  text-align: center;
+  right: 80px;
+  top: 110px;
+  position: absolute;
+}
+
+
+
+.anchor-color{
+  color: white;
+}
+
+.anchor-color:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.tint-login {
+  position: relative;
+
+}
+
+.tint-login:before {
+
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+
+}
+
+.textbox{
+  background-color: rgba(0, 0, 0, 0);
+  color:#ffffff;
+}
+
+.btn-login{
+  background-color: transparent;
+  height: 40px;
+  width: 100%;
+  font-family: bebas;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  cursor:pointer;
+  color:#FFFFFF;
+  font-size:17px;
+  vertical-align: center;
+}
+
+.btn-login:hover {
+    background-color: white;
+    transition: background-color .4s linear;
+    color: #000000;
+}
+
+
+/*
+.myButton {
+    background-color:transparent;
+
+    border:2px solid #000000;
+    display:inline-block;
+    cursor:pointer;
+    color:#000000;
+    font-family:Arial;
+    font-size:17px;
+    padding:11px 26px;
+    text-decoration:none;
+}
+.myButton:hover {
+    background-color:blue;
+    color: #FFFFFF;
+}
+*/
+
+
+/*CSS for Forgot Password*/
+img.bg {
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.blur {
+  min-height: 100%;
+  width: 100%;
+  z-index: -1;
+  position: relative;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: url(#blur);
+  filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius='10');
+  overflow: hidden;
+}
+
+.blur:after {
+  content: '';
+  min-height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  position: absolute;
+}
+
+.widget {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+
+
+
+/*  ////////  NOT REQUIRED  //////////  */
+
+.text {
+  width: 70%;
+}
+
+.text h1 {
+  text-align: center;
+  text-shadow: 1px 1px rgba(0,0,0,.3);
+  color: #ffffff;
+  margin-top: 10px;
+  font-family: 'Arvo', serif;
+  font-weight: 600;
+  font-size: 38px;
+}
+
+.text p {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px rgba(0,0,0,.3);
+  margin-top: -70px;
+  font-family: 'Lato', serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+
+.emailButton {
+    background-color: transparent;
+    text-shadow: 1px 1px rgba(0,0,0,.3);
+    height: 50px;
+    width: 100px;
+    border-radius: 3px;
+    border: 2px solid white;
+    cursor:pointer;
+    color:#FFFFFF;
+    font-family:Arial;
+    font-size:17px;
+    text-decoration:none;
+    vertical-align: center;
+}
+.emailButton:hover {
+    background-color: white;
+    color: #000000;
+}
+
+
+/* Admin CSS */
+
+
+.job-box{
+  width: 70%;
+  border: solid black 1px;
+}
+
+.header-text{
+  width: 70%;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+
+.login-textbox{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  color:#ffffff;
+}
+
+.login-admin-page{
+  width: 30%;
+  left: 33%;
+  color: white;
+  top: 30%;
+  position: absolute;
+  border: 1px solid #FFF;
+}
+
+.adminBTN{
+  background-color: transparent;
+  height: 40px;
+  width: 100%;
+  font-family: bebas;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  border: 1px solid #FFF;
+  text-transform: uppercase;
+  cursor:pointer;
+  color:#FFF;
+  font-size:17px;
+  vertical-align: center;
+}
+
+.adminBTN:hover {
+    background-color: white;
+    transition: background-color .2s linear;
+    color: #000;
+}
+
+.login-text2{
+  position: absolute;
+  font-size: 4.5em;
+  color: white;
+  text-align: center;
+  right: 80px;
+  top: 80px;
+  position: absolute;
+  width: 50%;
+  left: 23%;
+}
+
+.scrollit {
+    overflow:scroll;
+    height: 30em;
+    
+
+}
+
+#style-1::-webkit-scrollbar
+{
+  width: 12px;
+  background-color: #F5F5F5;
+}
+#style-1::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+#style-1::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #FB8F40;
+}
+
+
+.hr_picture{
+  float: left;
+  width: 250px;
+  height: 250px;
+}
+
+.hr_infobox{
+  width: 70%;
+  height: 500px;
+  float: left;
+}
+
+.hr_text{
+  margin-left: 10%; 
+}
+
+.hr_profilepicbtn{
+  background-color: transparent;
+  height: 50px;
+  width: 180px;
+  font-family: bebas;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  border: 1px solid #428bca;
+  text-transform: uppercase;
+  text-align: center;
+  cursor:pointer;
+  color:#428bca;
+  font-size: 15px;
+}
+
+.hr_editbtn{
+  background-color: transparent;
+  height: 40px;
+  width: 150px;
+  font-family: bebas;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  border: 1px solid #428bca;
+  text-transform: uppercase;
+  text-align: center;
+  cursor:pointer;
+  color:#428bca;
+  font-size: 15px;
+  margin-left: 10%; 
+  margin-top: 10%;
+}
+
+
+.skype_box{
+  margin-left: 24%;
+}
+
+.announcements-info{
+  margin-left: 6%;
+  color: gray;
+  width: 200px;
+  margin-top: 2%;
+  font-size: 1.5em;
+}
+
+.announcements{
+  margin-top: -2%;
+}
+
+.scrollit {
+    overflow:scroll;
+    height: 30em;
+}
+
+#style-1::-webkit-scrollbar
+{
+  width: 7px;
+  background-color: #F5F5F5;
+}
+#style-1::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,0);
+  background-color: #F5F5F5;
+}
+#style-1::-webkit-scrollbar-thumb
+{
+
+  -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,.3);
+  background-color: gray;
+}
+
+.announcement-box{
+  width: 70%;
+  margin: auto;
+}
+
+.interview-sched-box{
+  width: 40%;
+  margin: auto;
+}
+
+
+.emp_profile{
+  width: 60%;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

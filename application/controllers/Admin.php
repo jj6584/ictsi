@@ -8,11 +8,11 @@ class Admin extends CI_Controller {
                 $this -> login();
             }
 
-          
+
 
               public function approvereq(){
-                                    $this -> load ->model('model_admin');
-                                       $this -> load ->model('model_users');
+              $this -> load ->model('model_admin');
+              $this -> load ->model('model_users');
               $this->load->view('admin/approverequest.php');
               }
 
@@ -27,7 +27,7 @@ class Admin extends CI_Controller {
 
 
             public function edit_profile(){
-                $this -> load ->model('model_admin');
+              $this -> load ->model('model_admin');
               $this->load->view('admin/admin_editprofile');
             }
 

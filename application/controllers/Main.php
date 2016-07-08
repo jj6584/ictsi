@@ -93,26 +93,6 @@ public function livesearch(){
 
 
 
-//     public function search_job(){
-//     $this->load->model('model_users');
-
-//     $this->load->library('form_validation');
-
-//     $this -> form_validation -> set_rules('job', 'Job','required');
-
-//     $job = $this->input->post('job');
-
-
-// if($this->model_users->search_jobs($job)){
-// $data['searched'] = $this->model_users->search_jobs($job);
-// $this->load->view('job_list',$data);
-// }else{
-//     $this->session->set_flashdata('pol','no results found');
-//     redirect('main/joblist');
-// }
-// }
-
-
 
     function update_carousel(){
      $config['upload_path']          = './images/';
@@ -181,10 +161,10 @@ function update_banner(){
               $this->load->model('model_users');
 
               $this->model_users->insertupload($img);
-              //$this->session->set_flashdata('asd','You have successfully uploaded a new image');
+
               $this->session->set_flashdata('uploadedsuccess', "<div class='alert alert-success' role='alert'><center><font size='2px'>You have successfully uploaded a new image</font></center></div>");
                 redirect('main/checklist');
-               //$this->load->view('uploadfiles', $data);
+
            }else{
 
                 $this->session->set_flashdata('uploadedfailed', "<div class='alert alert-danger' role='alert'><center><font size='2px'>We only accept PNG JPG and GIF type of image</font></center></div>");
@@ -215,7 +195,7 @@ function update_banner(){
               $this->load->model('model_users');
 
               $this->model_users->insertupload1($img);
-              //$this->session->set_flashdata('asd','You have successfully uploaded a new image');
+
               $this->session->set_flashdata('uploadedsuccess', "<div class='alert alert-success' role='alert'><center><font size='2px'>You have successfully uploaded a new image</font></center></div>");
                 redirect('main/checklist');
 
@@ -248,7 +228,7 @@ function update_banner(){
               $this->load->model('model_users');
 
               $this->model_users->insertsss($img);
-              //$this->session->set_flashdata('asd','You have successfully uploaded a new image');
+
               $this->session->set_flashdata('uploadedsuccess', "<div class='alert alert-success' role='alert'><center><font size='2px'>You have successfully uploaded a new image</font></center></div>");
                 redirect('main/checklist');
 
@@ -281,7 +261,7 @@ function update_banner(){
               $this->load->model('model_users');
 
               $this->model_users->insertpagibig($img);
-              //$this->session->set_flashdata('asd','You have successfully uploaded a new image');
+
               $this->session->set_flashdata('uploadedsuccess', "<div class='alert alert-success' role='alert'><center><font size='2px'>You have successfully uploaded a new image</font></center></div>");
                 redirect('main/checklist');
 
@@ -314,7 +294,7 @@ function update_banner(){
               $this->load->model('model_users');
 
               $this->model_users->insertnbi($img);
-              //$this->session->set_flashdata('asd','You have successfully uploaded a new image');
+
               $this->session->set_flashdata('uploadedsuccess', "<div class='alert alert-success' role='alert'><center><font size='2px'>You have successfully uploaded a new image</font></center></div>");
                 redirect('main/checklist');
 
@@ -500,7 +480,7 @@ function upload_carousel3(){
         $this -> load -> model('model_users');
             if($this->model_users->is_code_valid($code)){
 
-           //redirect(base_url()."main/changepassword/$temp_pass");
+           
               redirect(base_url()."main/login_page");
         }else{
             echo "the key is not valid";
@@ -945,7 +925,7 @@ public function validate_space($text){
 
 
 	}
-	
+
 
 public function jobmatchmobile($id){
 
@@ -957,7 +937,7 @@ public function jobmatchmobile($id){
 echo json_encode(array('jobmatches'=>$skills));
 	//echo json_encode($response1);
 }
-  
+
   public function insert_applicant(){
 
     $this -> load -> model('model_users');
@@ -967,7 +947,7 @@ echo json_encode(array('jobmatches'=>$skills));
     $job_id = $_POST['hidden_job_id'];
     $date = date("Y")."/".date('m')."/".date('d');
 
-	
+
 if(empty($_POST['vlink'])){
 	$data = array(
 							'job_id_tr' => $job_id,
@@ -985,7 +965,7 @@ if(empty($_POST['vlink'])){
 							);
 }
 
-     
+
 			$fullname = "";
 			$email ="";
 			$userdetails = $this -> model_users ->getappname($applicant_id);
@@ -1083,12 +1063,12 @@ margin-top: 5%;
 $this->email->message($message);
 $this->email->send();
 
-	
+
 
 
 			}
 		 $this -> model_users ->insert_into_jobstransaction($data);
-			
+
 
 
   }

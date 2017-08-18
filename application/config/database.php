@@ -65,11 +65,11 @@ $query_builder = TRUE;
 //5r7UbfPNFjBnqv8CS1
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'ictsi',
-	'dbdriver' => 'mysqli',
+	'hostname' => 'ec2-54-228-255-234.eu-west-1.compute.amazonaws.com',
+	'username' => 'cnpzhiejtylxzc',
+	'password' => '284f805946f610df27e6f213f80e68d5ed401943c34c5371aeeb63f54555dc8b',
+	'database' => 'dk6o337nt6vsr',
+	'dbdriver' => 'postgres',
 	'dbprefix' => '',
 	'pconnect' => FALSE,    //true pag webhost
 	'db_debug' => TRUE,

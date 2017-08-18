@@ -1,11 +1,15 @@
 {
-	"description" : "The CodeIgniter framework",
-	"name" : "codeigniter/framework",
+	"description" : "Online Recruitment and Performance Evaluation System With Android Mobile Application For International Container Terminal Services, Inc",
+	"name" : "Thesis: ICTSI",
 	"license": "MIT",
 	"require": {
-		"php": ">=5.2.4"
+		"php": ">=5.2.4",
+		 "silex/silex": "~1.1",
+  	         "monolog/monolog": "~1.7",
+		 "ext-mysql": "*"
+
 	},
 	"require-dev": {
-		"mikey179/vfsStream": "1.1.*"
+		"heroku/heroku-buildpack-php": "*"
 	}
 }
